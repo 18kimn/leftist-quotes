@@ -1,6 +1,10 @@
 # leftist-quotes
 
-A super, super simple API to interact with 778 communist/leftist quotes, all from [marxists.org](marxists.org). There are three endpoints: 
+[leftist-quotes.com](https://leftist-quotes.com)
+
+A super, super simple API to interact with 778 communist/leftist quotes, all from [marxists.org](marxists.org). 
+
+There are three endpoints: 
 
 **/** (the root): returns a random quote
 
