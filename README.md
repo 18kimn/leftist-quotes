@@ -2,11 +2,11 @@
 
 A super, super simple API to interact with 778 communist/leftist quotes, all from [marxists.org](marxists.org). There are three endpoints: 
 
-** / ** (the root): returns a random quote
+**/** (the root): returns a random quote
 
-** /daily ** : returns a single quote every day, matches with the marxists.org [quote-a-day page](https://www.marxists.org/subject/quotes/index.htm)
+**/daily** : returns a single quote every day, matches with the marxists.org [quote-a-day page](https://www.marxists.org/subject/quotes/index.htm)
 
-** /all-quotes ** : returns all quotes. 
+**/all-quotes** : returns all quotes. 
 
 Quotes are returned as objects in the form: 
 - body: the text of the quote
