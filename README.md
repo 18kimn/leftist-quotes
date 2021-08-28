@@ -1,6 +1,6 @@
 # leftist-quotes
 
-[leftist-quotes.com](https://leftist-quotes.com)
+[leftist-quotes.com](https://www.leftist-quotes.com)
 
 A super, super simple API to interact with 778 communist/leftist quotes, all from [marxists.org](marxists.org). 
 
