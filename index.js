@@ -25,4 +25,8 @@ app.get('/daily', (req, res) => {
   res.send(quote)
 })
 
-app.listen(4000, () => {})
+app.get('/all-quotes', (req, res) => {
+  res.send(quotes)
+})
+
+app.listen(process.env.PORT || 80, () => {})
