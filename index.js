@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import fs from 'fs'
 
 const quotes = JSON.parse(fs.readFileSync('quotes.json'))
@@ -15,6 +16,7 @@ const getDailyQuote = () => {
 
 const app = express()
 
+app.use(cors())
 app.get('/', (req, res) => {
   const quote = getRandomQuote()
   res.send(quote)
