@@ -12,7 +12,7 @@ unescape_html2 <- function(str){
   strsplit(parsed, "#_|", fixed = TRUE)[[1]]
 }
 
-readChar(temp, file.info(temp)$size) %>% 
+readChar(temp, file.info(temp)$size, useBytes = TRUE) %>% 
   str_match_all("(?<=<p>)(.*?)(?=</p>)") %>% 
   extract2(1) %>% 
   map_dfr(function(quote){
